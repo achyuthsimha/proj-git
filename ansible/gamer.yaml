@@ -36,7 +36,3 @@
 
   - name: Stop iptables
     service: name=iptables state=stopped
-
-- hosts: tomcatservers
-  become: yes
-
